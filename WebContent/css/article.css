@@ -1,0 +1,222 @@
+/*********************
+       Reset
+/********************/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+/*********************
+      Généralité*
+/********************/
+body {
+	font-family: 'Roboto', sans-serif;
+	font-family: 1rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+
+
+/*********************
+        Header
+/********************/
+header {
+
+	background-color: #35889a;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	margin-bottom: 60px;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav ul li {
+	padding-right: 30px;
+
+}
+
+header nav ul li a:hover {
+	color: #a1c037;
+	transition: 1s;
+}
+
+
+
+.header a{
+	color: #fff;
+	font-weight: bold;
+}
+
+.header a {
+	transition: 1s
+}
+
+.header a:hover {
+	color: #a1c037;
+}
+
+
+
+/*********************
+          Main
+/********************/
+main h2 {
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: bold
+}
+
+main .container {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+
+.container img {
+	padding-right: 50px;
+	width: 400px;
+	height: auto
+}
+
+form div {
+	margin-bottom: 10px;
+}
+
+form label {
+	padding-right: 20px;
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+form input {
+	width: 50%;
+	padding: 4px 0px;
+	margin-bottom: 20px;
+	padding-left: 10px
+}
+
+#categorie label{
+	margin-top: 25px;
+}
+
+form #photoArticle{
+	    display: flex;
+	    justify-content: flex-start;
+	    margin-bottom: -50px;
+       }
+       
+form select {
+	padding: 5px;
+	width: 50%;
+	border: 1px solid #000;
+	margin-bottom: 20px;
+	margin-top: 20px
+}
+
+
+form fieldset {
+	width: 70%;
+}
+
+form fieldset input {
+	width: 73%;
+}
+
+.section-btn{
+	display: flex;
+	
+}
+
+form .enregistrer input {
+	padding: 25px 156px;
+	padding-left: 90px;
+	background-color: #5003ff;
+	border: 1px solid #5003ff;
+	color: #fff;
+	transition: 1.5s;
+	margin-top: 40px;
+	
+}
+
+form .enregistrer input:hover {
+	background-color: #a1c037;
+	border: 1px solid #a1c037;
+}
+
+ .annuler input {
+	padding: 25px 110px;
+	
+	background-color: #F56C66;
+	border: 1px solid #F56C66;
+	color: #fff;
+	transition: 1.5s;
+	position: absolute;
+    top: 1010px;
+    left: 820px;
+	
+}
+
+.annuler input:hover {
+	background-color: #F51405;
+	border: 1px solid #F51405;
+}
+
+.retour input {
+	padding: 25px 100px;
+	
+	background-color: #F56C66;
+	border: 1px solid #F56C66;
+	color: #fff;
+	transition: 1.5s;
+	position: absolute;
+    top: 1010px;
+    left: 820px;
+	
+}
+
+.retour input:hover {
+	background-color: #F51405;
+	border: 1px solid #F51405;
+}
+
+
+
+
+
+
+form a {
+	color: inherit;
+}
+
+
+/*********************
+       Footer
+/********************/
+footer {
+	background-color: #2f3241;
+}
+
+footer p {
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+}

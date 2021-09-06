@@ -1,0 +1,159 @@
+/*********************
+       Reset
+/********************/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+/*********************
+      Généralité*
+/********************/
+body {
+	font-family: 'Roboto', sans-serif;
+	font-family: 1rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+
+
+/*********************
+        Header
+/********************/
+header {
+
+	background-color: #35889a;
+}
+
+header .header {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	margin-bottom: 60px;
+
+}
+
+.header p a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.header a {
+	transition: 1s
+}
+
+.header a:hover {
+	color: #a1c037;
+}
+
+
+
+/*********************
+          Main
+/********************/
+
+.identifiant{
+	margin-bottom:290px;
+	margin-top: 140px;
+	text-align: center
+}
+.identifiant_un{
+	margin-bottom: 5px;
+}
+
+.identifiant_un input{
+	padding: 5px 80px 5px 4px;
+	margin-bottom: 20px;	
+}
+
+.identifiant_un label{
+             margin-right: 15px;
+           }
+.identifiant_deux input{
+	padding: 20px 40px;
+	background-color: #5003ff;
+	border: 1px solid #5003ff;
+	color: #fff;
+	transition: 1s
+}
+.identifiant_deux input:hover{
+	background-color: #a1c037;
+	border: 1px solid #a1c037;
+}
+.connexion{
+	display: flex;
+	justify-content: center;
+}
+.connexion div{
+	margin-right: 23px
+}
+.cookie_password{
+	display: flex;
+	flex-direction: column
+}
+.cookie_password a{
+	font-weight: bold;
+}
+.compte input{
+	padding: 25px 130px;
+	background-color: #a1c037;
+	border: 1px solid #a1c037;
+	color: #fff;
+	transition: 1.5s;
+	position: absolute;
+	top: 480px;
+	left: 580px
+	
+}
+.compte input:hover{
+	background-color: #5003ff;
+	border: 1px solid #5003ff;
+}
+
+ 
+
+
+/*********************
+       Footer
+/********************/
+footer {
+	background-color: #2f3241;
+}
+
+footer p {
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

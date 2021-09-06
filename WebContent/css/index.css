@@ -1,0 +1,185 @@
+
+/*********************
+       Reset
+/********************/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+/*********************
+      Généralité*
+/********************/
+body {
+	font-family: 'Roboto', sans-serif;
+	font-family: 1rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+
+
+/*********************
+        Header
+/********************/
+header {
+
+	background-color: #35889a;
+}
+
+header .header {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	margin-bottom: 60px;
+
+}
+
+.header p,
+a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.header a {
+	transition: 1s
+}
+
+.header a:hover {
+	color: #a1c037;
+}
+
+
+
+/*********************
+          Main
+/********************/
+main h3 {
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: bold
+}
+
+.categories_rechercher {
+	display: flex;
+}
+
+/*filtre*/
+.filtre {
+	margin-bottom: 25px;
+}
+
+.filtre p{
+	font-weight: bold;
+}
+.filtre input {
+	padding: 7px 150px 7px 20px;
+	border: 1px solid #000;
+	border-radius: 14px 14px;
+}
+
+input.placeholder {
+	text-align: left;
+	
+}
+
+/*Catégories*/
+form {
+	margin-bottom: 150px;
+}
+
+form label {
+	margin-right: 50px;
+}
+
+form select {
+	padding: 5px 90px 5px 0px;
+	border: 1px solid #000;
+}
+
+/*Rechercher*/
+#rechercher input {
+	padding: 35px 150px;
+	text-align: center;
+	margin-top: 25px;
+	border: 1px solid #000;
+	background-color: #5003ff;
+	border: 1px solid #5003ff;
+	color: #fff;
+}
+
+#rechercher input::-webkit-input-placeholder {
+color: #fff !important;
+}
+
+
+#filtre_categorie {
+	margin-left: 50px;
+}
+
+#rechercher {
+	margin-left: 80px;
+	margin-top: 10px;
+}
+
+
+/*Images*/
+.images {
+	display: flex;
+	margin-bottom: 150px;
+}
+
+.images_enfant {
+	display: flex;
+	border: 1px solid #000;
+	vertical-align: top;
+	padding-right: 60px;
+	margin-right: 100px;
+	margin-left: 50px;
+}
+
+.images_enfant div {
+	padding: 20px 20px;
+}
+
+.images_enfant div p {
+	line-height: 2.5
+}
+
+.images_enfant div a {
+	color: #000;
+	text-decoration: underline;
+	transition: 1s
+}
+
+.images_enfant div a:hover {
+	color: #a1c037;
+}
+
+
+
+
+/*********************
+       Footer
+/********************/
+footer {
+	background-color: #2f3241;
+}
+
+footer p {
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+}

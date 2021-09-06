@@ -1,0 +1,149 @@
+/*********************
+       Reset
+/********************/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+/*********************
+      Généralité*
+/********************/
+body {
+	font-family: 'Roboto', sans-serif;
+	font-family: 1rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+
+
+/*********************
+        Header
+/********************/
+header {
+
+	background-color: #35889a;
+}
+
+header .header {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	margin-bottom: 60px;
+
+}
+
+.header p a{
+	color: #fff;
+	font-weight: bold;
+}
+
+
+/*********************
+          Main
+/********************/
+
+.formulaire{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 170px;
+}
+h2{
+	text-align: center;
+	margin-bottom: 70px;
+}
+.formulaire input{
+	margin-bottom: 20px;
+	padding: 5px 100px;
+	
+}
+.formulaire label{
+	padding-left: 40px;
+	display: block;
+	width: 190px;
+	float: left;
+	margin-right: 10px;
+}
+#credit {
+	position: absolute;
+	top: 610px;
+	left:236px;
+}
+#credit p{
+	font-weight: bold;
+}
+.creer input{
+	padding: 25px 130px;
+	background-color: #5003ff;
+	border: 1px solid #5003ff;
+	color: #fff;
+	transition: 1.5s;
+	position: absolute;
+	top: 650px;
+	left: 480px	
+}
+.creer input:hover{
+	background-color: #a1c037;
+	border: 1px solid #a1c037;
+}
+.annuler a{
+	padding: 25px 130px;
+	background-color: #a1c037;
+	border: 1px solid #a1c037;
+	color: #fff;
+	transition: 1.5s;
+	position: absolute;
+	top: 650px;
+	left: 870px
+}
+.annuler a:hover{
+	background-color: #fc74a1;
+	border: 1px solid #fc74a1;
+}
+
+
+/*********************
+       Footer
+/********************/
+footer {
+	background-color: #2f3241;
+	margin-top: 270px;
+}
+
+footer p {
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
